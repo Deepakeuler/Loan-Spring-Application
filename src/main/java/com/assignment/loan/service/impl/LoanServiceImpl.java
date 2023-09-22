@@ -140,4 +140,10 @@ public class LoanServiceImpl implements LoanService {
 
         return customers.values().stream().toList();
     }
+
+    public void setObjectMapper(ObjectMapper objectMapper) {
+    }
+
+    public void setLoanDataRepository(LoanDataRepository loanDataRepository) {
+    }
 }
